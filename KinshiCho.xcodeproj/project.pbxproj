@@ -13,7 +13,6 @@
 		C11C242C241365C60046FF17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C11C242A241365C60046FF17 /* Main.storyboard */; };
 		C11C242E241365C80046FF17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C11C242D241365C80046FF17 /* Assets.xcassets */; };
 		C11C2431241365C80046FF17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C11C242F241365C80046FF17 /* LaunchScreen.storyboard */; };
-		C121FFD5241B9FE4001B3D61 /* gitignore in Resources */ = {isa = PBXBuildFile; fileRef = C121FFD4241B9FE4001B3D61 /* gitignore */; };
 		C12827CD2417EDF800BB073A /* snare.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C12827CC2417EDF700BB073A /* snare.mp3 */; };
 		C137F8372417DF7B0029EE05 /* 残酷とバンザイ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C137F8362417DF7B0029EE05 /* 残酷とバンザイ.mp3 */; };
 		C1380AAD24189D0F0010D2E4 /* ウェーイ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C1380AAC24189D0F0010D2E4 /* ウェーイ.mp3 */; };
@@ -31,7 +30,6 @@
 		C11C242D241365C80046FF17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C11C2430241365C80046FF17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C11C2432241365C80046FF17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C121FFD4241B9FE4001B3D61 /* gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = gitignore; sourceTree = "<group>"; };
 		C12827CC2417EDF700BB073A /* snare.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = snare.mp3; sourceTree = "<group>"; };
 		C137F8362417DF7B0029EE05 /* 残酷とバンザイ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "残酷とバンザイ.mp3"; sourceTree = "<group>"; };
 		C1380AAC24189D0F0010D2E4 /* ウェーイ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ウェーイ.mp3"; sourceTree = "<group>"; };
@@ -83,7 +81,6 @@
 				C137F8362417DF7B0029EE05 /* 残酷とバンザイ.mp3 */,
 				C12827CC2417EDF700BB073A /* snare.mp3 */,
 				C1380AAC24189D0F0010D2E4 /* ウェーイ.mp3 */,
-				C121FFD4241B9FE4001B3D61 /* gitignore */,
 			);
 			path = "Let'sMusic";
 			sourceTree = "<group>";
@@ -155,7 +152,6 @@
 				C11C242C241365C60046FF17 /* Main.storyboard in Resources */,
 				C1EE223B2417CFC600FED780 /* 春の歌.mp3 in Resources */,
 				C162061024150EF600B02195 /* cymbal.mp3 in Resources */,
-				C121FFD5241B9FE4001B3D61 /* gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
