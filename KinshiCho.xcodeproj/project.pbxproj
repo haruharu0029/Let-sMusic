@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C11C2425241365C60046FF17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11C2424241365C60046FF17 /* AppDelegate.swift */; };
+		C11C2427241365C60046FF17 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11C2426241365C60046FF17 /* SceneDelegate.swift */; };
+		C11C2429241365C60046FF17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11C2428241365C60046FF17 /* ViewController.swift */; };
+		C11C242C241365C60046FF17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C11C242A241365C60046FF17 /* Main.storyboard */; };
+		C11C242E241365C80046FF17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C11C242D241365C80046FF17 /* Assets.xcassets */; };
+		C11C2431241365C80046FF17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C11C242F241365C80046FF17 /* LaunchScreen.storyboard */; };
+		C121FFD5241B9FE4001B3D61 /* gitignore in Resources */ = {isa = PBXBuildFile; fileRef = C121FFD4241B9FE4001B3D61 /* gitignore */; };
+		C12827CD2417EDF800BB073A /* snare.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C12827CC2417EDF700BB073A /* snare.mp3 */; };
+		C137F8372417DF7B0029EE05 /* 残酷とバンザイ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C137F8362417DF7B0029EE05 /* 残酷とバンザイ.mp3 */; };
+		C1380AAD24189D0F0010D2E4 /* ウェーイ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C1380AAC24189D0F0010D2E4 /* ウェーイ.mp3 */; };
+		C162061024150EF600B02195 /* cymbal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C162060F24150EF600B02195 /* cymbal.mp3 */; };
+		C16206162415435F00B02195 /* きらきら武士.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C16206152415435F00B02195 /* きらきら武士.mp3 */; };
+		C1EE223B2417CFC600FED780 /* 春の歌.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C1EE223A2417CFC600FED780 /* 春の歌.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C11C2421241365C60046FF17 /* KINSHI-CHO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KINSHI-CHO.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C11C2424241365C60046FF17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C11C2426241365C60046FF17 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C11C2428241365C60046FF17 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C11C242B241365C60046FF17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C11C242D241365C80046FF17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C11C2430241365C80046FF17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C11C2432241365C80046FF17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C121FFD4241B9FE4001B3D61 /* gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = gitignore; sourceTree = "<group>"; };
+		C12827CC2417EDF700BB073A /* snare.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = snare.mp3; sourceTree = "<group>"; };
+		C137F8362417DF7B0029EE05 /* 残酷とバンザイ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "残酷とバンザイ.mp3"; sourceTree = "<group>"; };
+		C1380AAC24189D0F0010D2E4 /* ウェーイ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ウェーイ.mp3"; sourceTree = "<group>"; };
+		C162060F24150EF600B02195 /* cymbal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cymbal.mp3; sourceTree = "<group>"; };
+		C16206152415435F00B02195 /* きらきら武士.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "きらきら武士.mp3"; sourceTree = "<group>"; };
+		C1EE223A2417CFC600FED780 /* 春の歌.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "春の歌.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C11C241E241365C60046FF17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C11C2418241365C60046FF17 = {
+			isa = PBXGroup;
+			children = (
+				C11C2423241365C60046FF17 /* Let'sMusic */,
+				C11C2422241365C60046FF17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C11C2422241365C60046FF17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C11C2421241365C60046FF17 /* KINSHI-CHO.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C11C2423241365C60046FF17 /* Let'sMusic */ = {
+			isa = PBXGroup;
+			children = (
+				C11C2424241365C60046FF17 /* AppDelegate.swift */,
+				C11C2426241365C60046FF17 /* SceneDelegate.swift */,
+				C11C2428241365C60046FF17 /* ViewController.swift */,
+				C11C242A241365C60046FF17 /* Main.storyboard */,
+				C11C242D241365C80046FF17 /* Assets.xcassets */,
+				C11C242F241365C80046FF17 /* LaunchScreen.storyboard */,
+				C11C2432241365C80046FF17 /* Info.plist */,
+				C162060F24150EF600B02195 /* cymbal.mp3 */,
+				C16206152415435F00B02195 /* きらきら武士.mp3 */,
+				C1EE223A2417CFC600FED780 /* 春の歌.mp3 */,
+				C137F8362417DF7B0029EE05 /* 残酷とバンザイ.mp3 */,
+				C12827CC2417EDF700BB073A /* snare.mp3 */,
+				C1380AAC24189D0F0010D2E4 /* ウェーイ.mp3 */,
+				C121FFD4241B9FE4001B3D61 /* gitignore */,
+			);
+			path = "Let'sMusic";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C11C2420241365C60046FF17 /* KinshiCho */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C11C2435241365C80046FF17 /* Build configuration list for PBXNativeTarget "KinshiCho" */;
+			buildPhases = (
+				C11C241D241365C60046FF17 /* Sources */,
+				C11C241E241365C60046FF17 /* Frameworks */,
+				C11C241F241365C60046FF17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KinshiCho;
+			productName = "Let'sMusic";
+			productReference = C11C2421241365C60046FF17 /* KINSHI-CHO.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C11C2419241365C60046FF17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = haruki;
+				TargetAttributes = {
+					C11C2420241365C60046FF17 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C11C241C241365C60046FF17 /* Build configuration list for PBXProject "KinshiCho" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C11C2418241365C60046FF17;
+			productRefGroup = C11C2422241365C60046FF17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C11C2420241365C60046FF17 /* KinshiCho */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C11C241F241365C60046FF17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C12827CD2417EDF800BB073A /* snare.mp3 in Resources */,
+				C11C2431241365C80046FF17 /* LaunchScreen.storyboard in Resources */,
+				C1380AAD24189D0F0010D2E4 /* ウェーイ.mp3 in Resources */,
+				C16206162415435F00B02195 /* きらきら武士.mp3 in Resources */,
+				C137F8372417DF7B0029EE05 /* 残酷とバンザイ.mp3 in Resources */,
+				C11C242E241365C80046FF17 /* Assets.xcassets in Resources */,
+				C11C242C241365C60046FF17 /* Main.storyboard in Resources */,
+				C1EE223B2417CFC600FED780 /* 春の歌.mp3 in Resources */,
+				C162061024150EF600B02195 /* cymbal.mp3 in Resources */,
+				C121FFD5241B9FE4001B3D61 /* gitignore in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C11C241D241365C60046FF17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C11C2429241365C60046FF17 /* ViewController.swift in Sources */,
+				C11C2425241365C60046FF17 /* AppDelegate.swift in Sources */,
+				C11C2427241365C60046FF17 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C11C242A241365C60046FF17 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C11C242B241365C60046FF17 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C11C242F241365C80046FF17 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C11C2430241365C80046FF17 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C11C2433241365C80046FF17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C11C2434241365C80046FF17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C11C2436241365C80046FF17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3L2348PDJY;
+				INFOPLIST_FILE = "Let'sMusic/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haruki.KINSHI-CHO";
+				PRODUCT_NAME = "KINSHI-CHO";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C11C2437241365C80046FF17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3L2348PDJY;
+				INFOPLIST_FILE = "Let'sMusic/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haruki.KINSHI-CHO";
+				PRODUCT_NAME = "KINSHI-CHO";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C11C241C241365C60046FF17 /* Build configuration list for PBXProject "KinshiCho" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C11C2433241365C80046FF17 /* Debug */,
+				C11C2434241365C80046FF17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C11C2435241365C80046FF17 /* Build configuration list for PBXNativeTarget "KinshiCho" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C11C2436241365C80046FF17 /* Debug */,
+				C11C2437241365C80046FF17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C11C2419241365C60046FF17 /* Project object */;
+}
