@@ -17,7 +17,6 @@ class ViewController: UIViewController {
 
     }
 //bundleという、ファイルや画像を管理しているクラスに、取り込んだ音源のファイル名を渡して、ファイルの場所(住所)を取得している。
-    
     let cymbalPath = Bundle.main.bundleURL.appendingPathComponent("cymbal.mp3")
     //AVAudioPlayerの設定
     var cymbalPlayer = AVAudioPlayer()
