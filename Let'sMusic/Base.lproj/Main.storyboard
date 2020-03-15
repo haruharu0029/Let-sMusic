@@ -30,8 +30,8 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <gestureRecognizers/>
                         <constraints>
-                            <constraint firstItem="lo9-Uf-2JA" firstAttribute="centerY" secondItem="E7D-QR-t5c" secondAttribute="centerY" id="j4H-st-kYB"/>
-                            <constraint firstItem="lo9-Uf-2JA" firstAttribute="centerX" secondItem="E7D-QR-t5c" secondAttribute="centerX" id="zgL-uJ-YcU"/>
+                            <constraint firstItem="lo9-Uf-2JA" firstAttribute="centerY" secondItem="E7D-QR-t5c" secondAttribute="centerY" id="3gx-Ie-Fpu"/>
+                            <constraint firstItem="lo9-Uf-2JA" firstAttribute="centerX" secondItem="E7D-QR-t5c" secondAttribute="centerX" id="VkO-0w-vRN"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="det-76-I86"/>
                     </view>
@@ -98,11 +98,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="IMG_1552" translatesAutoresizingMaskIntoConstraints="NO" id="C9k-wm-pMx">
-                                <rect key="frame" x="0.0" y="-372" width="415" height="3650"/>
+                                <rect key="frame" x="0.0" y="-372" width="415" height="3684"/>
                                 <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AYB-n2-mbq">
-                                <rect key="frame" x="232.5" y="1158" width="130" height="130"/>
+                                <rect key="frame" x="232.5" y="1175" width="130" height="130"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="130" id="8gA-80-Sne"/>
                                     <constraint firstAttribute="width" constant="130" id="Upm-xT-t2C"/>
@@ -113,7 +113,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rns-1f-9zi">
-                                <rect key="frame" x="42.5" y="1158" width="130" height="130"/>
+                                <rect key="frame" x="42.5" y="1175" width="130" height="130"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="130" id="Kcp-xg-iMu"/>
                                     <constraint firstAttribute="width" constant="130" id="fQj-ba-21v"/>
@@ -124,7 +124,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yji-LX-YOI">
-                                <rect key="frame" x="116.5" y="1619" width="182" height="48"/>
+                                <rect key="frame" x="116.5" y="1636" width="182" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="きらきら武士">
                                     <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -134,7 +134,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c3k-ho-tk5">
-                                <rect key="frame" x="162" y="1669" width="91" height="48"/>
+                                <rect key="frame" x="162" y="1686" width="91" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="春の歌">
                                     <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -144,7 +144,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r1k-Iw-NEb">
-                                <rect key="frame" x="183" y="1769" width="49" height="108"/>
+                                <rect key="frame" x="183" y="1786" width="49" height="108"/>
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="80"/>
                                 <state key="normal" title="II">
                                     <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -155,7 +155,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dAk-bZ-aki">
-                                <rect key="frame" x="101" y="1719" width="213" height="48"/>
+                                <rect key="frame" x="101" y="1736" width="213" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="残酷とバンザイ">
                                     <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -215,14 +215,13 @@
         <!--View Controller-->
         <scene sceneID="0EO-bc-tfp">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="tWp-sD-AWH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="TLG-1F-Xhn" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="H7M-aE-30B">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="3000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="peraichi.com_landing_pages_view_kinshi-cho" translatesAutoresizingMaskIntoConstraints="NO" id="G1o-6b-j1n">
-                                <rect key="frame" x="0.0" y="48" width="414" height="2918"/>
+                                <rect key="frame" x="0.0" y="82" width="414" height="2918"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="414" id="4T5-cX-oNP"/>
                                     <constraint firstAttribute="height" constant="2918" id="cjE-tB-iMM"/>
@@ -248,6 +247,7 @@
                     </view>
                     <size key="freeformSize" width="414" height="3000"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tWp-sD-AWH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2607" y="878"/>
         </scene>
