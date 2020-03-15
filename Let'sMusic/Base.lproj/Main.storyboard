@@ -53,9 +53,9 @@
                                 <rect key="frame" x="0.0" y="88" width="414" height="778"/>
                                 <subviews>
                                     <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gMz-V0-Er4">
-                                        <rect key="frame" x="0.0" y="0.0" width="415" height="3001"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="415" height="3000"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="3001" id="jOg-tM-fJX"/>
+                                            <constraint firstAttribute="height" constant="3000" id="jOg-tM-fJX"/>
                                         </constraints>
                                         <connections>
                                             <segue destination="TLG-1F-Xhn" kind="embed" id="C0K-FT-2ck"/>
@@ -217,11 +217,11 @@
             <objects>
                 <viewController id="TLG-1F-Xhn" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="H7M-aE-30B">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="3001"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="3000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="peraichi.com_landing_pages_view_kinshi-cho" translatesAutoresizingMaskIntoConstraints="NO" id="G1o-6b-j1n">
-                                <rect key="frame" x="0.0" y="49" width="414" height="2918"/>
+                                <rect key="frame" x="0.0" y="48" width="414" height="2918"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="414" id="4T5-cX-oNP"/>
                                     <constraint firstAttribute="height" constant="2918" id="cjE-tB-iMM"/>
@@ -245,7 +245,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Ho1-3A-evM"/>
                     </view>
-                    <size key="freeformSize" width="414" height="3001"/>
+                    <size key="freeformSize" width="414" height="3000"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tWp-sD-AWH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
